@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <!-- font awesome 5 link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+     <!--bootstrap css--> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--Css link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="">
+
+        <a href="#" class="logo">Food <span>.</span></a>
+        <!--<div class="menuToggle" onclick="toggleMenu();"></div>-->
+        <ul class="navigation navbar navbar-expand-md " >
+            <li><a href="#bannar">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#expert">Expert</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+
+
+
+
+        </ul>
+    </header>
+
+
+    <section class="banner" id="bannar">
+        <div class="content">
+            <h2>Always Choose Good</h2>
+            <P>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nisi quo qui voluptatem deserunt totam, reprehenderit similique eius suscipit dolores, saepe itaque harum quisquam corporis ipsum.
+             Aspernatur .
+                
+             
+                
+            </P>
+
+
+            <a href="#" class="btn">Our Menu </a>
+
+
+
+        
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+    </section>
+
+
+<section class="about" id ="about">
+    <div class="row">
+        <div class="col50">
+            <h2 class="titleText"><span>A</span>bout Us</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque laborum aspernatur, exercitationem quod iure adipisci, mollitia similique nesciunt dolores saepe modi. Illo impedit quam suscipit natus enim explicabo sequi nobis quae neque id, aperiam ex, rerum vitae porro assumenda? Beatae nesciunt ab alias porro, illo vero, fugiat au
+
+                <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque magni laborum assumenda cumque illo beatae sapiente a unde, enim molestias id recusandae ad consectetur, corporis accusamus. Saepe explicabo debitis dolor!
+
+
+
+            </p>
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="col50">
+            <div class="imgBx">
+
+
+                <img src="./images/img1.jpg" alt="">
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    
+</section>
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        /*
+        
+
+        function toggleMenu(){
+        const menuToggle=document.querySelector('.menuToggle');
+        const menuToggle=document.querySelector('.navigation');
+        menuToggle.classList.toggle('active');
+        navigator.classList.toggle('active');
+        }
+        
+        */
+    
+                    
+
+
+    </script>
+    
+
+    <!-- Our menu-->
+
+    <section id="menu"> 
+
+
+
+
+
+        <div class="collection">
+            <div class="container py-5">
+                
+                <h1 class="text-center">New collection</h1>
+                <p class="l">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, alias! Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <div class="row py-5">
+
+                    <div class="col-lg-3">
+                        
+                        <div class="card">
+
+                           
+                            <img src="./images/menu1.jpg" class="img-fluid mb-3" alt="">
+
+                            <input type="button" value="Add to card">
+
+                            <h5>Product Name</h5>
+                            <p><small><del>$24.99</del><span>$12.99</span></small></p>
+
+                        </div>
+
+
+
+
+                    </div>
+
+                    <div class="col-lg-3">
+                        
+                        <div class="card">
+
+
+                            <img src="./images/menu2.jpg" class="img-fluid mb-3" alt="">
+
+
+                            <input type="button" value="Add to card">
+
+
+
+                            
+                            <h5>Product Name</h5>
+                            <p><small><del>$24.99</del><span>$18.99</span></small></p>
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+
+
+                    <div class="col-lg-3">
+                        
+                        <div class="card">
+
+
+                            <img src="./images/menu3.jpg" class="img-fluid mb-3" alt="">
+
+
+                            <input type="button" value="Add to card">
+
+
+                           
+                            <h5>Product Name</h5>
+                            <p><small><del>$24.99</del><span>$13.99</span></small></p>
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+
+                    <div class="col-lg-3">
+                        
+                        <div class="card">
+
+
+                            <img src="./images/menu4.jpg" class="img-fluid mb-3" alt="">
+
+
+                            <input type="button" value="Add to card">
+                            
+                            <h5>Product Name</h5>
+                            <p><small><del>$24.99</del><span>$15.99</span></small></p>
+
+                        </div>
+
+
+
+
+                    </div> 
+                               
+                    
+                    <div class="col-lg-3">
+                        
+                        <div class="card">
+
+
+                            <img src="./images/menu5.jpg" class="img-fluid mb-3" alt="">
+
+
+                            <input type="button" value="Add to card">
+                            
+                            <h5>Product Name</h5>
+                            <p><small><del>$24.99</del><span>$15.99</span></small></p>
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="col-lg-3">
+                        
+                        <div class="card">
+
+
+                            <img src="./images/menu6.jpg" class="img-fluid mb-3" alt="">
+
+
+                            <input type="button" value="Add to card">
+                            
+                            <h5>Product Name</h5>
+                            <p><small><del>$24.99</del><span>$15.99</span></small></p>
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="col-lg-3">
+                        
+                        <div class="card">
+
+
+                            <img src="./images/menu1.jpg" class="img-fluid mb-3" alt="">
+
+
+                            <input type="button" value="Add to card">
+                            
+                            <h5>Product Name</h5>
+                            <p><small><del>$24.99</del><span>$15.99</span></small></p>
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="col-lg-3">
+                        
+                        <div class="card">
+
+
+                            <img src="./images/menu.jpg" class="img-fluid mb-3" alt="">
+
+
+                            <input type="button" value="Add to card">
+                            
+                            <h5>Product Name</h5>
+                            <p><small><del>$24.99</del><span>$15.99</span></small></p>
+
+                        </div>
+
+
+
+
+                    </div>
+                
+
+                </div>
+
+                
+                
+
+
+
+
+             
+
+                <div class="title">
+                    <a href="#" class="btn">View All</a>
+            
+                </div>
+
+
+
+
+
+
+            </div>
+        
+            
+        </div>
+    
+<!-- other-->
+        
+        
+ <!--Expart-->
+        
+    </section>
+   
+
+    <section class="expert" id=expert>
+            
+
+        
+        <body>
+            <div class="team-boxed">
+                <div class="container">
+                    <div class="intro">
+                        <h2 class="text-center">Our Kitchen <span>E</span>xpert</h2>
+                        <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+                    </div>
+                    <div class="row people">
+                        <div class="col-md-6 col-lg-4 item">
+                            <div class="box"><img class="rounded-circle" src="./images/expert1.jpg">
+                                <h3 class="name">Ben Johnson</h3>
+                                <p class="title">Cooker</p>
+                                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 item">
+                            <div class="box"><img class="rounded-circle" src="./images/expert2.jpg">
+                                <h3 class="name">Emily Clark</h3>
+                                <p class="title">Cooker</p>
+                                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 item">
+                            <div class="box"><img class="rounded-circle" src="./images/expert4.jpg">
+                                <h3 class="name">Carl Kent</h3>
+                                <p class="title">Cooker</p>
+                                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+        </body>
+
+
+
+    </section>
+    <!--Sell-->
+    <h2 class="sell">Oue Sell</h2>
+    <section class="A" id="testimonials">
+    
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-xl-3">
+            <div class="card bg-c-blue order-card">
+                <div class="card-block">
+                    <h6 class="m-b-20">Orders Received</h6>
+                    <h2 class="text-right"><i class="fa fa-cart-plus f-left"></i><span>486</span></h2>
+                    <p class="m-b-0">Completed Orders<span class="f-right">351</span></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 col-xl-3">
+            <div class="card bg-c-green order-card">
+                <div class="card-block">
+                    <h6 class="m-b-20">Orders Received</h6>
+                    <h2 class="text-right"><i class="fa fa-rocket f-left"></i><span>486</span></h2>
+                    <p class="m-b-0">Completed Orders<span class="f-right">351</span></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 col-xl-3">
+            <div class="card bg-c-yellow order-card">
+                <div class="card-block">
+                    <h6 class="m-b-20">Orders Received</h6>
+                    <h2 class="text-right"><i class="fa fa-refresh f-left"></i><span>486</span></h2>
+                    <p class="m-b-0">Completed Orders<span class="f-right">351</span></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 col-xl-3">
+            <div class="card bg-c-pink order-card">
+                <div class="card-block">
+                    <h6 class="m-b-20">Orders Received</h6>
+                    <h2 class="text-right"><i class="fa fa-credit-card f-left"></i><span>486</span></h2>
+                    <p class="m-b-0">Completed Orders<span class="f-right">351</span></p>
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+
+</section>
+
+<!-- Contact-->
+<section class="c" id ="contact">
+    
+    <div class="title" >
+        <h2 class="titleText"><span>C</span>ontact</h2>
+          
+    </div>
+    <div class="contactForm ">
+        <h3> send Message</h3>
+        <div class="inputBox">
+            <input type="text" placeholder="Name">
+        </div>
+        <div class="inputBox">
+            <input type="text" placeholder="Email">
+        </div>
+        <div class="inputBox">
+            <textarea placeholder="Detils"></textarea>
+        </div>
+
+        <div class="inputBox">
+            <input type="submit" value="send">
+        </div>
+
+    </div>
+
+        
+</section>
+
+<!--footer-->
+<section class="food">
+
+
+
+<footer class="footer">
+<div class="container">
+<div class="row">
+<div class=" col-sm-4 col-md col-sm-4  col-12 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+<!--headin5_amrc-->
+<p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+<p><i class="fa fa-location-arrow"></i> 1207 Dhaka Bhangladesh  </p>
+<p><i class="fa fa-phone"></i>  +8801789848646  </p>
+<p><i class="fa fa fa-envelope"></i> info@example.com  </p>
+
+
+</div>
+
+
+<div class=" col-sm-4 col-md  col-6 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Food links</h5>
+<!--headin5_amrc-->
+<ul class="footer_ul_amrc">
+<li><a href="#manue">Coffees</a></li>
+<li><a href="#manue">Bread</a></li>
+<li><a href="#manue">Orange Juice</a></li>
+<li><a href="#manue">Fride chicken</a></li>
+<li><a href="#manue">pizza</a></li>
+<li><a href="#manue">Tossed Salad</a></li>
+</ul>
+<!--footer_ul_amrc ends here-->
+</div>
+
+
+<div class=" col-sm-4 col-md  col-6 col">
+<h5 class="headin5_amrc col_white_amrc pt2">More Food Links</h5>
+<!--headin5_amrc-->
+<ul class="footer_ul_amrc">
+<li><a href="#manue">Hamburger</a></li>
+<li><a href="#manue">Lorem ipsum dolor sit amet .</a></li>
+<li><a href="#manue">Lorem, ipsum dolor.</a></li>
+<li><a href="#manue">Lorem, ipsum.</a></li>
+<li><a href="#manue">Lorem, ipsum dolor.</a></li>
+<li><a href="#manue">pizza</a></li>
+</ul>
+<!--footer_ul_amrc ends here-->
+</div>
+
+
+<div class=" col-sm-4 col-md  col-12 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+<!--headin5_amrc ends here-->
+
+<ul class="footer_ul2_amrc">
+<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#bannar">https://www.absiddique.com/</a></p></li>
+<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#bannar">https://www.absiddique.com/</a></p></li>
+<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#bannar">https://www.absiddique.com/</a></p></li>
+</ul>
+<!--footer_ul2_amrc ends here-->
+</div>
+</div>
+</div>
+
+
+<div class="container">
+<ul class="foote_bottom_ul_amrc">
+<li><a href="#bannar">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#menu">Menu</a></li>
+<li><a href="#expart">Expart</a></li>
+<li><a href="testimonials">Testimonials</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<!--foote_bottom_ul_amrc ends here-->
+<p class="text-center">Copyright @2021 | Designed With by <a href="#">Abu Bakar Siddique</a></p>
+
+<ul class="social_footer_ul">
+<li><a href="#bannar"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href="#bannar"><i class="fab fa-twitter"></i></a></li>
+<li><a href="#bannar"><i class="fab fa-linkedin"></i></a></li>
+<li><a href="#bannar"><i class="fab fa-instagram"></i></a></li>
+</ul>
+<!--social_footer_ul ends here-->
+</div>
+
+</footer>
+
+
+
+
+    
+</section>
+
+
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+     integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+ </script>   
+<!-- bootstrap js -->
+ 
+            
+
+</body>
+
+</html>
